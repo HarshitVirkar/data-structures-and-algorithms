@@ -17,6 +17,7 @@ public class RecursionTest {
 
     @Test
     public void testFactorial(){
+        assert recursion.factorial( 5 ) == 120;
         assert recursion.factorial( 5, 1 ) == 120;
     }
 }
